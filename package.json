@@ -1,0 +1,47 @@
+{
+  "name": "mcp",
+  "private": true,
+  "version": "0.0.1",
+  "description": "MCP Test",
+  "type": "module",
+  "homepage": "https://github.com/julienroussel/mcp",
+  "bugs": {
+    "url": "https://github.com/julienroussel/mcp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julienroussel/mcp.git"
+  },
+  "author": "Julien Roussel",
+  "scripts": {
+    "knip": "knip",
+    "inspect": "npx @modelcontextprotocol/inspector",
+    "validate": "knip && eslint . && tsc -b && fta src",
+    "build": "tsc -b",
+    "serve": "tsx src/server.ts",
+    "client": "tsx src/client.ts",
+    "lint": "eslint .",
+    "fta": "fta src"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.23.0",
+    "@modelcontextprotocol/inspector": "0.7.0",
+    "@types/express": "5.0.1",
+    "@types/node": "22.13.14",
+    "eslint": "9.23.0",
+    "eslint-plugin-import": "2.31.0",
+    "fta-cli": "2.0.1",
+    "globals": "16.0.0",
+    "knip": "5.46.4",
+    "prettier": "3.5.3",
+    "typescript": "5.8.2",
+    "typescript-eslint": "8.28.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.8.0",
+    "dotenv": "16.4.7",
+    "express": "5.0.1",
+    "tsx": "4.19.3",
+    "zod": "3.24.2"
+  }
+}
