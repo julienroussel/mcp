@@ -34,7 +34,7 @@
     "globals": "16.0.0",
     "knip": "5.46.5",
     "prettier": "3.5.3",
-    "typescript": "5.8.2",
+    "typescript": "5.8.3",
     "typescript-eslint": "8.29.0"
   },
   "dependencies": {
