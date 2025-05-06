@@ -35,7 +35,7 @@
     "knip": "5.53.0",
     "prettier": "3.5.3",
     "typescript": "5.8.3",
-    "typescript-eslint": "8.31.1"
+    "typescript-eslint": "8.32.0"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "1.11.0",
