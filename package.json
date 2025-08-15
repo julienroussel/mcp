@@ -24,7 +24,7 @@
     "fta": "fta src"
   },
   "devDependencies": {
-    "@eslint/js": "9.29.0",
+    "@eslint/js": "9.33.0",
     "@modelcontextprotocol/inspector": "0.16.3",
     "@types/express": "5.0.3",
     "@types/node": "24.0.10",
