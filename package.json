@@ -27,7 +27,7 @@
     "@eslint/js": "9.33.0",
     "@modelcontextprotocol/inspector": "0.16.3",
     "@types/express": "5.0.3",
-    "@types/node": "24.0.10",
+    "@types/node": "24.7.0",
     "eslint": "9.33.0",
     "eslint-plugin-import": "2.32.0",
     "fta-cli": "2.0.1",
