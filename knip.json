@@ -1,4 +1,3 @@
 {
-  "entry": ["src/server.ts", "src/client.ts"],
   "ignoreDependencies": ["prettier"]
 }

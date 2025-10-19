@@ -22,7 +22,7 @@ server.tool(
   'Convert an address into geographic coordinates',
   AddressSchema,
   async (args) => {
-    const response = await handleGeocode(args);
+    const response = await handleGeocode(args as { address: string });
 
     return {
       content: [
