@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "@eslint/js": "9.38.0",
-    "@modelcontextprotocol/inspector": "0.17.1",
+    "@modelcontextprotocol/inspector": "0.17.2",
     "@types/express": "5.0.3",
     "@types/node": "24.8.1",
     "eslint": "9.38.0",
